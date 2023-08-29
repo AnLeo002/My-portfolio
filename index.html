@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="/img/portafolio.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="brand">AS</h2>
+        <ul class="menu">
+          <li><a href="#soy">Quien Soy</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <article class="info-content">
+        <div class="banner">
+          <h1>Soy</h1>
+          <ul class="prop">
+            <li>
+              <h1>Andre Saavedra</h1>
+            </li>
+            <li>
+              <h1>Programador</h1>
+            </li>
+            <li>
+              <h1>Soñador</h1>
+            </li>
+            <li>
+              <h1>Autónomo</h1>
+            </li>
+            <li>
+              <h1>Creativo</h1>
+            </li>
+          </ul>
+        </div>
+        <p>
+          <span>Desarrollador Full Stack/Java</span><br />
+          Ingenio y creatividad a tu dispocision.<br />
+        </p>
+        <a download="CVAndre" href="/cv/cv5.pdf" class="downA">
+          <button class="download-cv">Descargar CV</button></a
+        >
+      </article>
+      <img src="hola.jpeg" alt="" />
+    </main>
+    <h2 data-aos="fade-up" id="soy">Sobre mi</h2>
+    <hr />
+    <article class="slider"  data-aos="fade-up">
+      <ul>
+        <li class="carru">
+          <img src="yo2-removebg-preview.png" alt="" />
+          <p class="par-des">"El exito es un salto de fe"</p>
+        </li>
+        <li class="carru">
+          <img src="yo.jpeg" alt="" />
+          <p class="par-des">
+            Soy programador, por que encontre la pasion en el, ver codigo, hacer
+            que fucione y ver el resultado es lo mas gratificante que podemos
+            tener, es un amor/odio incomprendido icomprendido, pero si se ama no
+            lo dejas ir.
+          </p>
+        </li>
+      </ul>
+    </article>
+    <h2>Conocimientos</h2>
+    <hr />
+    <section class="know">
+      <section class="langs" data-aos="fade-up">
+        <h3>Lenguajes de programación</h3>
+        <article>
+          <div>
+            <img src="/img/java.png" alt="java" />
+            <p>Java</p>
+          </div>
+          <div>
+            <img src="/img/js.png" alt="javaScrpit" />
+            <p>Java Script</p>
+          </div>
+        </article>
+      </section>
+      <section class="langs" data-aos="fade-up">
+        <h3>Paginas web</h3>
+        <article>
+          <div>
+            <img src="/img/css-3.png" alt="css" />
+            <p>CSS</p>
+          </div>
+          <div>
+            <img src="/img/html-5.png" alt="html" />
+            <p>HTML</p>
+          </div>
+        </article>
+      </section>
+      <section class="langs" data-aos="fade-up">
+        <h3>Bases de datos</h3>
+        <article>
+          <div>
+            <img src="/img/mysql.png" alt="mySql" />
+            <p>MySql</p>
+          </div>
+          <div>
+            <img src="/img/mongo.png" alt="mongoDB" />
+            <p>MongoDB</p>
+          </div>
+        </article>
+      </section>
+      <section class="langs" data-aos="fade-up">
+        <h3>Frameworks</h3>
+        <article>
+          <div>
+            <img src="/img/react.png" alt="react" />
+            <p>React</p>
+          </div>
+          <div>
+            <img src="/img/spring.png" alt="spring" />
+            <p>Spring</p>
+          </div>
+          <div>
+            <img src="/img/boot.png" alt="bootstrap" />
+            <p>BootStrap</p>
+          </div>
+        </article>
+      </section>
+    </section>
+    <h2 id="portfolio">Portafolio</h2>
+    <hr />
+    <section class="portafolio">
+      <div class="divFilter">
+        <button type="button" class="search" id="search">Filtrar por</button>
+        <form action="" class="filter">               
+        </form>
+      </div>
+      <section class="cards">
+        <article class="card">
+          <img src="/hola.jpeg" alt="img-proyect" />
+          <h3 class="namePro">Name proyect</h3>
+          <div class="lengCard">
+            <p class="lengCardName">Java</p>
+            <p class="lengCardName">HTML</p> 
+            <p class="lengCardName">HTML</p>  
+            <p class="lengCardName">JavaScript</p> 
+          </div>          
+          <button class="more search">Ver más</button>
+        </article>
+        <article class="card">
+          <img src="/hola.jpeg" alt="img-proyect" />
+          <h3 class="namePro">Name proyect</h3>
+          <div class="lengCard">
+            <p class="lengCardName">Java</p>
+            <p class="lengCardName">HTML</p> 
+            <p class="lengCardName">HTML</p>  
+            <p class="lengCardName">JavaScript</p> 
+          </div>          
+          <button class="more search">Ver más</button>
+        </article>
+        <article class="card" id="1">
+          <img src="/hola.jpeg" alt="img-proyect" />
+          <h3 class="namePro">Name proyect</h3>
+          <div class="lengCard">
+            <p class="lengCardName">Java</p>
+            <p class="lengCardName">HTML</p> 
+            <p class="lengCardName">HTML</p>  
+            <p class="lengCardName">JavaScript</p> 
+          </div>          
+          <button class="more search">Ver más</button>
+        </article>
+        <article class="card" id="2">
+          <img src="/hola.jpeg" alt="img-proyect" />
+          <h3 class="namePro">Name proyect</h3>
+          <div class="lengCard">
+            <p class="lengCardName">Java</p>
+            <p class="lengCardName">HTML</p> 
+            <p class="lengCardName">HTML</p>  
+            <p class="lengCardName">JavaScript</p> 
+          </div>          
+          <button class="more search">Ver más</button>
+        </article>
+        <article class="card" id="3">
+          <img src="/hola.jpeg" alt="img-proyect" />
+          <h3 class="namePro">Name proyect</h3>
+          <div class="lengCard">
+            <p class="lengCardName">Java</p>
+            <p class="lengCardName">HTML</p>              
+            <p class="lengCardName">JavaScript</p> 
+          </div>          
+          <button class="more search">Ver más</button>
+        </article>
+      </section>  
+    </section>
+    <h2 >Contacto</h2>
+    <hr />
+    <section class="contact" id="contact">
+      <form action="" class="info" id="form" >
+        <div>
+          <input
+            type="text"
+            placeholder="Nombre y apellido"
+            required
+            name="Name"
+            class="input"
+          />
+          <input
+            type="tel"
+            name="Tel"
+            id="tel"
+            placeholder="Telefono"
+            required
+            class="input"
+          />
+        </div>
+        <div>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="Correo electronico"
+            class="input"
+          />
+          <input type="text" placeholder="País" required class="input"/>
+        </div>
+        <textarea
+          name="Comentario"
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Comentarios"
+          required
+        ></textarea>
+        <input type="submit" placeholder="Enviar" class="search send" />
+      </form>
+    </section>
+    <div class="response">
+      <div class="box">       
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footerInfo">
+        <div class="footer-content">
+          <h2>Andre Saavedra</h2>
+          <h3>Frontend Developer</h3>
+        </div>
+        <div class="sotial-networks">
+          <a href="https://www.linkedin.com/in/andre-saavedra/"
+            ><img src="/img/linkedin.png" alt="linked" ></a>
+          <a href="https://github.com/AnLeo002"
+            ><img src="/img/github.png" alt="github" ></a>
+        </div>
+      </div>
+      <h5>© Derechos Reservados - Andre Leonardo Saavedra 2023</h5>
+    </footer>
+    <script src="/js/view.js"></script>
+    <script src="/js/send.js"></script>
+    <script src="/js/filter.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
