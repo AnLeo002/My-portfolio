@@ -1,0 +1,21 @@
+{
+  "name": "mi-pagina",
+  "version": "1.0.0",
+  "description": "this is my portfolio in a page web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "js",
+    "java",
+    "html",
+    "css",
+    "spring",
+    "database",
+    "proyect"
+  ],
+  "author": "andre saavedra",
+  "license": "ISC"
+}
